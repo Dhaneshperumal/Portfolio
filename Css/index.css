@@ -1,0 +1,271 @@
+*{
+    color: white;
+}
+body{
+    background-image: url(./black\ bg.webp);
+    background-size: cover;
+}
+.navbar{
+    background-color: black;
+}
+.navbar a{
+    font-family: Oleo Script;
+    color: white;
+}
+.navbar a:hover{
+    color: aqua;
+    scale:1.1 ;
+}
+.navlink a{
+    color: white;
+    font-size: 25px;
+}
+.navlink{
+    position: absolute;
+    left: 10%;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.navlink i:hover{
+    color: aqua;
+    scale: 1.2;
+}
+.header{
+   margin-top: 300px;
+    text-align: center;
+}
+.header h1{
+    color: white;
+}
+.header p{
+    color: white;
+    font-size: x-large;
+}
+.header a{
+    font-weight: 600;
+    color: black;
+    border: 2px solid black;
+    background-color:white ;
+}
+.header a:hover{
+background-color: aqua;
+color: black;
+}
+.contents::before{
+    content: '';
+    animation: head 5s infinite;
+    color: aqua;
+    font-weight: bold;
+}
+@keyframes head {
+    0%{
+        content: 'Web Developer';
+    }
+    50%{
+        content: 'Full Stack Developer';
+    }
+    100%{
+        content: 'Software Developer';
+    }
+}
+.abouthead{
+    margin-top: 370px;
+    color: black;
+}
+.aboutimg{
+    border: 15px solid black;
+    border-radius: 10px;
+}
+.colo{
+    color: aqua;
+}
+.colorcv{
+    background-color: aqua;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    color:black;
+    font-weight: 600;
+}
+.colorcv:hover{
+    color: white;
+    background-color: aqua;
+}
+.project{
+    margin-top: 150px;
+}
+.project p{
+    color: aqua;
+}
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card-image {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-image {
+    transform: scale(1.1);
+}
+
+.card-content {
+    margin-top: 15px;
+    text-align: center;
+}
+.card-content a{
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 15px;
+    color: black;
+    background-color: aqua;
+    border-radius: 15px;
+}
+.timeline-item{
+    position: relative;
+    margin-bottom: 0;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.timeline-item::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: aqua;
+}
+.timeline-item::after{
+    content: '';
+    position: absolute;
+    left:-6px;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: aqua;
+    border: 2px solid #fff;
+}
+.timeline-date{
+    color:white;
+    background-color: aqua;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 5px 0;
+    font-weight: bold;
+    display: inline-block;
+}
+.education-location {
+    position: absolute;
+    right: 0;
+    top: 25%; 
+    font-weight: bold;
+}
+.education-CGPA{
+    position: absolute;
+    right: 0;
+    font-weight: 600;
+}
+.skill-container{
+    width: 90%;
+    background-color: #ddd;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.skills{
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+.HTML{
+    width: 95%;
+    background-color: aqua;
+    font-weight: 700;
+}
+.css{
+    width: 85%;
+    background-color: aqua;
+    font-weight: 700;
+}
+.javascript{
+    width: 45%;
+    background-color: aqua;
+    font-weight: 700;
+}
+.bootstrap{
+    width: 85%;
+    background-color: aqua;
+    font-weight: 700;
+}
+.react{
+    width: 5%;
+    background-color: aqua;
+    font-weight: 700;
+}
+.java{
+    width: 70%;
+    background-color: aqua;
+    font-weight: 700;
+}
+.springboot{
+    width: 10%;
+    background-color: aqua;
+    font-weight: 700;
+}
+.mysql{
+    width: 5%;
+    background-color: aqua;
+    font-weight: 700;
+}
+.contactinfo input{
+    border: none;
+    border-bottom:2px solid aqua ;
+    outline: none;
+    background-color: transparent;
+}
+.info input{
+    height: 150px;
+}
+.info button{
+    
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    color: white;
+    border: none;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+    .container {
+      width: 100% !important;
+    }
+
+  }
+.info button:hover{
+    color: black;
+}
+.footer{
+    background-color: black;
+    padding: 20px;
+}
+.footer a{
+    margin-right: 15px;
+    color:white;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: aqua;
+}
