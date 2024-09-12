@@ -30,6 +30,17 @@ body{
     color: aqua;
     scale: 1.2;
 }
+@media screen  and (min-width: 0px) and (max-width: 767px) {
+    .navlink{
+        display: none;
+        
+    }
+}
+@media screen  and (min-width: 0px) and (max-width: 767px) {
+    body{
+        width: 100%;
+    }
+}
 .header{
    margin-top: 300px;
     text-align: center;
@@ -64,8 +75,11 @@ color: black;
     50%{
         content: 'Full Stack Developer';
     }
+    75%{
+        content: 'Back-End Developer';
+    }
     100%{
-        content: 'Software Developer';
+        content: 'Front-End Developer';
     }
 }
 .abouthead{
@@ -248,7 +262,7 @@ color: black;
     color: white;
     border: none;
 }
-@media (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
     .container {
       width: 100% !important;
     }
