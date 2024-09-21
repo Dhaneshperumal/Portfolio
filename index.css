@@ -4,6 +4,7 @@
 body{
     background-image: url(./img/black\ bg.webp);
     background-size: cover;
+    
 }
 .navbar{
     background-color: black;
@@ -33,7 +34,7 @@ body{
 @media screen  and (min-width: 0px) and (max-width: 767px) {
     .navlink{
         display: none;
-        
+
     }
 }
 @media screen  and (min-width: 0px) and (max-width: 767px) {
@@ -283,3 +284,55 @@ color: black;
 .footer a:hover{
     color: aqua;
 }
+
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      box-sizing: border-box;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .col-lg-6, .col-md-6, .col-sm-12 {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+    .nav-item {
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .skill-container {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .contactinfo {
+      width: 100% !important;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
