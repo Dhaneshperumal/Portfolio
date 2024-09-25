@@ -23,6 +23,7 @@ body{
 }
 .navlink{
     position: absolute;
+    top: 38%;
     left: 10%;
     margin-top: 10px;
     text-decoration: none;
