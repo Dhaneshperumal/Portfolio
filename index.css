@@ -212,37 +212,47 @@ color: black;
     font-weight: 700;
 }
 .css{
-    width: 85%;
+    width: 90%;
     background-color: aqua;
     font-weight: 700;
 }
 .javascript{
-    width: 45%;
-    background-color: aqua;
-    font-weight: 700;
-}
-.bootstrap{
     width: 85%;
     background-color: aqua;
     font-weight: 700;
 }
+.bootstrap{
+    width: 90%;
+    background-color: aqua;
+    font-weight: 700;
+}
 .react{
-    width: 5%;
+    width: 80%;
     background-color: aqua;
     font-weight: 700;
 }
 .java{
-    width: 70%;
+    width: 80%;
     background-color: aqua;
     font-weight: 700;
 }
 .springboot{
-    width: 10%;
+    width: 80%;
     background-color: aqua;
     font-weight: 700;
 }
 .mysql{
-    width: 5%;
+    width: 85%;
+    background-color: aqua;
+    font-weight: 700;
+}
+.tailwind{
+    width: 80%;
+    background-color: aqua;
+    font-weight: 700;
+}
+.postgresql{
+    width: 85%;
     background-color: aqua;
     font-weight: 700;
 }
