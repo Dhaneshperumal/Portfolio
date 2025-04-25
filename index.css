@@ -74,6 +74,9 @@ color: black;
     0%{
         content: 'Web Developer';
     }
+    25%{
+        content: 'Software Developer';
+    }
     50%{
         content: 'Full Stack Developer';
     }
@@ -236,6 +239,11 @@ color: black;
     background-color: aqua;
     font-weight: 700;
 }
+.python{
+    width: 75%;
+    background-color: aqua;
+    font-weight: 700;
+}
 .springboot{
     width: 80%;
     background-color: aqua;
@@ -243,6 +251,11 @@ color: black;
 }
 .mysql{
     width: 85%;
+    background-color: aqua;
+    font-weight: 700;
+}
+.mongo{
+    width: 80%;
     background-color: aqua;
     font-weight: 700;
 }
@@ -265,50 +278,27 @@ color: black;
 
   #postsContainer {
     margin-top: 20px;
-    padding: 20px;
-    /* border: 1px solid #ccc; */
-    border-radius: 5px;
-    /* background-color: #f9f9f9; */
   }
 
-  .post {
+  .post-card {
     margin-bottom: 20px;
   }
 
-  .post h3 {
+  .post-card h3 {
     margin-bottom: 10px;
-    color: aqua;
+    font-weight: bold;
   }
 
-  .post p {
+  .post-card p {
     margin: 5px 0;
   }
 
-  hr {
-    border: 1px solid #ccc;
-  }
- 
-  .post {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 20px;
+  .post-card .email {
+    color: #666;
+    font-size: 0.9em;
   }
 
-  .post h3 {
-    color: aqua;
-    margin-bottom: 10px;
-  }
 
-  .post p {
-    margin: 5px 0;
-  }
-
-  hr {
-    border: 1px solid #ccc;
-    margin-top: 15px;
-  }
 
 .info input{
     height: 150px;
